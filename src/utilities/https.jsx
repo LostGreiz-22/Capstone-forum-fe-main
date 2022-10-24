@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const APIServicePath = "https://forumbe.herokuapp.com/";
+const APIServicePath = "https://forumbe.herokuapp.com";
 
 function getInstance(url) {
   return axios.create({
