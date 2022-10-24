@@ -135,7 +135,7 @@ function ForumPost() {
                   <img
                     src={
                       data.imageLink
-                        ? `https://forumbe.herokuapp.com//user/${data.userId}/download`
+                        ? `https://forumbe.herokuapp.com/user/${data.userId}/download`
                         : "https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
                     }
                     alt=""
@@ -186,7 +186,7 @@ function ForumPost() {
                     <img
                       src={
                         data.imageLink
-                          ? `https://forumbe.herokuapp.com//user/${data.userId}/download`
+                          ? `https://forumbe.herokuapp.com/user/${data.userId}/download`
                           : "https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
                       }
                       alt=""

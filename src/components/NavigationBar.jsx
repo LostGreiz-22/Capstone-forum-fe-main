@@ -42,7 +42,7 @@ function NavigationBar() {
     setTimeout(() => {
       setImage(
         activeUser.imageLink
-          ? `https://forumbe.herokuapp.com//user/${activeUser.userId}/download`
+          ? `https://forumbe.herokuapp.com/user/${activeUser.userId}/download`
           : "https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
       );
       setLoading(false);

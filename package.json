@@ -2,7 +2,7 @@
   "name": "gaming-forum-capstone",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://forumbe.herokuapp.com/",
+  "proxy": "https://forumbe.herokuapp.com",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",

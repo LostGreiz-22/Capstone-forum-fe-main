@@ -66,7 +66,7 @@ function UserProfile() {
 
     //Upload Image
     axios
-      .put(`https://forumbe.herokuapp.com//user/${activeUser.userId}/upload`, formData, {
+      .put(`https://forumbe.herokuapp.com/user/${activeUser.userId}/upload`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -110,7 +110,7 @@ function UserProfile() {
               )}
               {activeUser.imageLink && !image && (
                 <img
-                  src={`https://forumbe.herokuapp.com//user/${activeUser.userId}/download`}
+                  src={`https://forumbe.herokuapp.com/user/${activeUser.userId}/download`}
                   alt={activeUser.imageLink}
                   className="userprofile rounded-1"
                 />
